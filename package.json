@@ -1,0 +1,29 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "Данная сборка поможет быстро начать работу!",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --config webpack_production.config.js"
+  },
+  "keywords": [],
+  "author": "Daniel Zagumennyi",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "file-loader": "^4.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
